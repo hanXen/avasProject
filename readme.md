@@ -4,7 +4,7 @@
 
 #### [Collect]
 ```bash
-> python3 avas.py collectionn
+> python3 avas.py collection
 ```
 #### [Analysis]
 ```bash

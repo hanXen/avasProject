@@ -1,4 +1,4 @@
-# avas Project by KISEC
+# avas Project from KISEC
 
 ## Usage
 

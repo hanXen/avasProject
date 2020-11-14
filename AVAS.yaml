@@ -1,0 +1,22 @@
+assetInfo:
+  assetType:
+    - LINUX
+#    - WINDOWS
+  assetSubType:
+    - OS
+  assetCode:
+    - U-01
+    - U-03
+    - U-07
+    - U-08
+    - U-31
+    - U-32
+    - U-42
+    - U-43
+#    - W-01
+#    - W-02
+#    - W-08
+#    - W-32
+#    - W-35
+#    - W-37
+#    - W-40

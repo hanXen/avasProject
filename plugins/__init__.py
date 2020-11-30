@@ -28,7 +28,7 @@ class Plugin(metaclass=ABCMeta):
     def __init__(self):
         self.code = None         # 항목코드
         self.codeScript = None   # 항목 수집 스크립트
-        self.codeExecute = None  # 항목 실행 구문(쉘 스크립트) or 항목 코드 변수(배치 스크립트)
+        self.codeExcute = None  # 항목 실행 구문(쉘 스크립트) or 항목 코드 변수(배치 스크립트)
         self.description = None    # 항목 설명 (항목 구분, 항목명, 중요도, 판단기준 등)
         self.stat = {}           # 분석 결과 상태 저장
 
@@ -40,7 +40,7 @@ class Plugin(metaclass=ABCMeta):
         return self.codeScript
 
     def getScriptExecute(self):
-        return self.codeExecute
+        return self.codeExcute
 
     def getDescription(self):
         return self.description
